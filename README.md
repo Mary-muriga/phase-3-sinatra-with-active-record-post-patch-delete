@@ -108,7 +108,7 @@ delete '/reviews/:id' do
   # delete the review
   review.destroy
   # send a response with the deleted review as JSON
-  review.to_json
+
 end
 ```
 
